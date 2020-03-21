@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ocrTest": {
+    "tesseract-angular-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ocrTest",
+            "outputPath": "dist/tesseract-angular-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -22,8 +22,10 @@
             "assets": [
               "src/favicon.ico",
               "src/assets"
-            ],
+            ], 
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+                "node_modules/bootstrap/dist/css/bootstrap-theme.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -50,11 +52,6 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "6kb",
-                  "maximumError": "10kb"
                 }
               ]
             }
@@ -63,18 +60,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ocrTest:build"
+            "browserTarget": "tesseract-angular-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ocrTest:build:production"
+              "browserTarget": "tesseract-angular-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ocrTest:build"
+            "browserTarget": "tesseract-angular-app:build"
           }
         },
         "test": {
@@ -111,15 +108,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "ocrTest:serve"
+            "devServerTarget": "tesseract-angular-app:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "ocrTest:serve:production"
+              "devServerTarget": "tesseract-angular-app:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "ocrTest"
+  "defaultProject": "tesseract-angular-app"
 }
