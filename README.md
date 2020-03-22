@@ -7,9 +7,9 @@ git clone https://github.com/merouan95/ReceiptOCR.git
 npm install  
 ng serve  
 ouvrir votre navigateur préféré et consulter: localhost:4200/  
-vous pouvez tester le projet avec ces deux notes de frais présentes dans le lien suivant :  
-https://i.ibb.co/b1sN4nQ/k.png  
+vous pouvez tester le projet avec ces deux notes de frais présentes dans le lien suivant :   
 https://i.ibb.co/pbxLG27/ndf.jpg  
+https://i.ibb.co/b1sN4nQ/k.png   
 
 ReceiptOCR is an Angular project that i built to scan ticket receipts and enable the user to convert these receipts to
 a text using the OCR technique, then specifically retrieve the date / amount of each ticket provided.
