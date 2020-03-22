@@ -21,7 +21,10 @@ localhost:4200/
 you can test the project with these two examples of ticket receipts in the following link:  
 https://i.ibb.co/pbxLG27/ndf.jpg  
 https://i.ibb.co/b1sN4nQ/k.png  
-![alt text](https://i.ibb.co/KFF1RZj/Capture1.png)
+exemple of Result of the first receipt:  
+![alt text](https://i.ibb.co/KFF1RZj/Capture1.png)  
+exemple of Result of the the second receipt:( if the receipt contains a lot of price values it will return all the values
+found in a tab and it's up the the user the choose the most appropriate and accurate value of the receipt.  
 ![alt text](https://i.ibb.co/zRWgNzr/Capture2.png)
 
 
