@@ -24,7 +24,7 @@ https://i.ibb.co/b1sN4nQ/k.png
 **Demo of the results of the first receipt:**  
 ![alt text](https://i.ibb.co/KFF1RZj/Capture1.png)  
 **Demo of the results of the the second receipt:** *( if the receipt contains a lot of price values it will return all the values
-found in a tab and it's up the the user the choose the most appropriate and accurate value of the receipt.  *
+found in a tab and it's up the the user the choose the most appropriate and accurate value of the receipt.
 ![alt text](https://i.ibb.co/zRWgNzr/Capture2.png)
 
 
