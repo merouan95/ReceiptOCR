@@ -19,8 +19,8 @@ npm install
 ng serve  
 localhost:4200/  
 you can test the project with these two examples of ticket receipts in the following link:  
-https://i.ibb.co/b1sN4nQ/k.png  
 https://i.ibb.co/pbxLG27/ndf.jpg  
+https://i.ibb.co/b1sN4nQ/k.png 
 
 
 
